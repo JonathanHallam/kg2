@@ -1,1 +1,106 @@
-hello world
+<!DOCTYPE html>
+
+<!-- media query -->
+
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/styles.css"/>
+    <link rel="icon" type="image/png" href="/images/icon.png"/>
+		<title>Jon's Magical Gadget Emporium</title>
+    <!-- <script src="/scripts/alert.js"></script> -->
+    <script src="/scripts/jquery.js"></script>
+    <!-- jquery smooth scroll to id's -->
+    <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+	</head>
+
+	<body>
+
+  <div class="left_sidebar">
+      <div class="side_link">
+        <div class="inner_side_link">
+          <img id=banana_slicer width="100%" src="/images/banana_slicer.jpg"/>
+        </div>
+        Fox Run Banana Slicer
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <img id=toaster width="100%" style="border-radius: 5%" src="/images/selfie_toaster.jpg"/>
+        </div>
+        The Selfie Toaster
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <img id="mushroom_slicer" width="100%" src="/images/mushroom_slicer.jpg"/>
+        </div>
+        Norpro Mushroom Slicer
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <img id="garlic_cutter" width="100%" src="/images/garlic_slicer.jpg"/>
+        </div>
+        Chef'n GarlicZoom II
+      </div>
+    </div>
+
+  <div id="thumbs">
+
+    <div id="tag">Only the
+      <br>&nbsp&nbsp BEST useless
+        <br>&nbsp&nbsp&nbsp&nbsp&nbspkitchen gadgets
+    </div>
+
+    <a style="z-index: 100000" href="#lower_back"><div id="scroll_button"></div></a>
+
+  </div>
+
+  <div id="lower_back">
+      <div id="header"><h3>Jon's Magical Gadget Emporium</h3></div>
+
+      <div class="underside_links">
+        <a class="banner_link" href="http://localhost:4567/"><div id="home_pic"></div></a>
+        <a class="banner_link" href="http://localhost:4567/blog"><div id="blog_pic"></div></a>
+        <a class="banner_link" href="http://localhost:4567/shop"><div id="shop_pic"></div></a>
+        <a class="banner_link" href="http://localhost:4567/quiz"><div id="quiz_pic"></div></a>
+      </div>
+
+      <div id="white_box">
+
+        <div class="page_advert">I am going to replace</div>
+        <div class="page_advert">these boxes with a most excellent</div>
+
+        <div id="blurb_text">
+          Here at Jon's Magical Gadget Emporium we sell only the
+          best useless kitchen gadgets
+          that money really really shouldn't buy.<br>
+          -----------<br>
+          Honestly, we don't want you to buy this stuff...
+          I mean, some of it looks kinda cool but
+          like 90% of the time you'd be better off
+          just learning how to use a knife properly
+
+        </div>
+
+        <div class="page_advert">slideshow, wouldn't that look awesome</div>
+        <div class="page_advert"> www.w3schools.com/w3css/w3css_slideshow.asp </div>
+
+      </div>
+  </div>
+
+	</body>
+
+</html>
