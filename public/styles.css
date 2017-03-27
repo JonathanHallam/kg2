@@ -369,6 +369,18 @@
 
 }
 
+#side_text_link {
+  text-decoration: none;
+}
+
+#side_text_link:hover {
+  color: #6d9657
+}
+
+#side_text_link:hover {
+  color: #000000
+}
+
 @media only screen and (max-width: 768px) {
 
 #tag {
