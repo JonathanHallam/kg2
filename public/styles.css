@@ -1,6 +1,8 @@
 
 .banner_link div {
-    border-radius: 5px
+    border-radius: 5px;
+    margin: 0 auto;
+    float: left;
 }
 
 #blog_pic {
@@ -8,7 +10,6 @@
     width: 150px;
     height: 50px;
     float: left;
-    margin-left: 8%;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -31,7 +32,6 @@
     width: 150px;
     height: 50px;
     float: left;
-    margin-left: 8%;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -54,7 +54,6 @@
     width: 150px;
     height: 50px;
     float: left;
-    margin-left: 8%;
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
