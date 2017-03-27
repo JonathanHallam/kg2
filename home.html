@@ -1,1 +1,105 @@
-hello world
+<!DOCTYPE html>
+
+<!-- media query -->
+
+<html>
+	<head>
+		<link type="text/css" rel="stylesheet" href="/styles.css"/>
+    <link rel="icon" type="image/png" href="/images/icon.png"/>
+		<title>Jon's Magical Gadget Emporium</title>
+    <!-- <script src="/scripts/alert.js"></script> -->
+    <script src="/scripts/jquery.js"></script>
+    <!-- jquery smooth scroll to id's -->
+    <script>
+    $(function() {
+      $('a[href*="#"]:not([href="#"])').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+          if (target.length) {
+            $('html,body').animate({
+              scrollTop: target.offset().top
+            }, 1000);
+            return false;
+          }
+        }
+      });
+    });
+    </script>
+	</head>
+
+	<body>
+
+  <div class="left_sidebar">
+      <div class="side_link">
+        <div class="inner_side_link">
+          <a href="https://www.knivesandtools.co.uk/en/pt/-opinel-parallele-chef-s-knife-20cm-n-118.htm"><img id=garlic_peeler width="100%" src="/images/garlic-peeler.jpg"/></a>
+        </div>
+        <a class="side_text_link" href="https://www.knivesandtools.co.uk/en/pt/-opinel-parallele-chef-s-knife-20cm-n-118.htm">Garlic Peeler</a>
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <a href="https://www.knivesandtools.co.uk/en/pt/-opinel-parallele-chef-s-knife-20cm-n-118.htm"><img id=eletric_knife width="100%" style="border-radius: 5%" src="/images/eletric-knife.jpg"/></a>
+        </div>
+        <a class="side_text_link" href="https://www.knivesandtools.co.uk/en/pt/-opinel-parallele-chef-s-knife-20cm-n-118.htm">Eletric Carving Knife</a>
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <a href="http://68.media.tumblr.com/c496980996944e2684e3e6cc46f0a659/tumblr_mv3mdkHTT21ro9ofmo1_1280.gif"><img id="egg_cracker" width="100%" src="/images/egg-cracker.jpg"/></a>
+        </div>
+        <a class="side_text_link" href="http://68.media.tumblr.com/c496980996944e2684e3e6cc46f0a659/tumblr_mv3mdkHTT21ro9ofmo1_1280.gif">Egg Cracker</a>
+      </div>
+      <div class="side_link">
+        <div class="inner_side_link">
+          <a href="https://www.amazon.co.uk/Tala-Wood-Beech-Spatula-Beige/dp/B0071QMZEU/ref=pd_bxgy_201_img_2?_encoding=UTF8&psc=1&refRID=N1SRFYNFF56CMKMJD41F"><img width="100%" src="/images/pot-stirrer.png"/></a>
+        </div>
+        <a class="side_text_link" href="https://www.amazon.co.uk/Tala-Wood-Beech-Spatula-Beige/dp/B0071QMZEU/ref=pd_bxgy_201_img_2?_encoding=UTF8&psc=1&refRID=N1SRFYNFF56CMKMJD41F">Pot Stirrer</a>
+      </div>
+    </div>
+
+  <div id="thumbs">
+
+    <div id="tag">Only the
+      <br>&nbsp&nbsp BEST useless
+        <br>&nbsp&nbsp&nbsp&nbsp&nbspkitchen gadgets
+    </div>
+
+    <a style="z-index: 100000" href="#lower_back"><div id="scroll_button"></div></a>
+
+  </div>
+
+  <div id="lower_back">
+      <div id="header"><h3>Jon's Magical Gadget Emporium</h3></div>
+
+      <div class="underside_links">
+        <a class="banner_link" href="https://evening-scrubland-92479.herokuapp.com"><div id="home_pic"></div></a>
+        <a class="banner_link" href="https://evening-scrubland-92479.herokuapp.com/blog"><div id="blog_pic"></div></a>
+        <a class="banner_link" href="https://evening-scrubland-92479.herokuapp.com/shop"><div id="shop_pic"></div></a>
+      </div>
+
+      <div id="white_box">
+
+        <div class="page_advert">I am going to replace</div>
+        <div class="page_advert">these boxes with a most excellent</div>
+
+        <div id="blurb_text">
+          Here at Jon's Magical Gadget Emporium we sell only the
+          best useless kitchen gadgets
+          that money really really shouldn't buy.<br>
+          -----------<br>
+          Honestly, we don't want you to buy this stuff...
+          I mean, some of it looks kinda cool but
+          like 90% of the time you'd be better off
+          just learning how to use a knife properly
+
+        </div>
+
+        <div class="page_advert">slideshow, wouldn't that look awesome</div>
+        <div class="page_advert"> www.w3schools.com/w3css/w3css_slideshow.asp </div>
+
+      </div>
+  </div>
+
+	</body>
+
+</html>

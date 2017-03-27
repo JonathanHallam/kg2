@@ -1,0 +1,393 @@
+
+.banner_link div {
+    border-radius: 5px;
+}
+
+#blog_pic {
+    background-image: url(images/blog.png);
+    width: 150px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+#blog_pic:hover {
+    background-image: url(images/blog_hover.png);
+    width: 150px;
+    height: 50px;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+#shop_pic {
+    background-image: url(images/shop.png);
+    width: 150px;
+    height: 50px;
+    margin-right: 8%;
+    float: right;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+#shop_pic:hover {
+    background-image: url(images/shop_hover.png);
+    width: 150px;
+    height: 50px;
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+#home_pic {
+  width: 150px;
+  height: 50px;
+  background-image: url(images/home.png);
+  float: left;
+  margin-left: 8%;
+  -webkit-transition: all 1s ease; /* Safari and Chrome */
+  -moz-transition: all 1s ease; /* Firefox */
+  -ms-transition: all 1s ease; /* IE 9 */
+  -o-transition: all 1s ease; /* Opera */
+  transition: all 1s ease;
+}
+#home_pic:hover {
+  background-image: url(images/home_hover.png);
+  width: 150px;
+  height: 50px;
+  -webkit-transform:scale(1.25); /* Safari and Chrome */
+  -moz-transform:scale(1.25); /* Firefox */
+  -ms-transform:scale(1.25); /* IE 9 */
+  -o-transform:scale(1.25); /* Opera */
+  transform:scale(1.25);
+}
+
+
+.left_sidebar {
+    position: fixed;
+    height: 125%;
+    width: 14%;
+    background-color: #859cc1;
+    margin-left: -1%;
+    margin-top: -2%;
+    border-right: 4px solid #2c3d59
+
+}
+.side_link {
+  height: 17.3%;
+  width: 90%;
+  font-size: 1vw;
+  font-family: sans-serif;
+  background-color: #adbcd3;
+  margin-left: 6%;
+  margin-top: 13%;
+  border-radius: 5%;
+  text-align: center;
+}
+.inner_side_link {
+    background-color: white;
+    width: 90%;
+    margin: 5%;
+    align-self: center;
+    height: 80%;
+    border-radius: 5%
+}
+
+#banana_slicer {
+    margin-top: 14%
+}
+#toaster {
+    margin-top: 5%;
+
+}
+#mushroom_slicer {
+    margin-top: 5%
+
+}
+#garlic_cutter {
+    margin-top: 10%
+
+}
+
+#thumbs {
+    background-image: url(/images/thumbs_trim.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    height: 90%;
+    width: 82%;
+    background-color: white;
+    border: 10px solid #2c3d59;
+    margin-left: 14%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-radius: 2%
+}
+#scroll_button {
+    background-image: url(/images/down_symbol.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 5%;
+    width: 3%;
+    border-radius: 15%;
+    background-color: transparent;
+    margin: auto;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+#scroll_button:hover {
+    -webkit-transform:scale(1.25); /* Safari and Chrome */
+    -moz-transform:scale(1.25); /* Firefox */
+    -ms-transform:scale(1.25); /* IE 9 */
+    -o-transform:scale(1.25); /* Opera */
+    transform:scale(1.25);
+}
+
+#lower_back {
+    position: relative;
+    top: 1000px;
+    padding-top: 1%;
+    height: 90%;
+    margin-left: 14%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+    width: 85%;
+    border-radius: 1%;
+    background-color: #2c3d59;
+}
+#lower_back_2 {
+    padding-top: 1%;
+    height: 140%;
+    margin-left: 14%;
+    margin-top: 2%;
+    padding-bottom: 1%;
+    width: 85%;
+    border-radius: 1%;
+    background-color: #2c3d59;
+}
+
+#header {
+    height: 10%;
+    width: 98%;
+    margin-left: 1%;
+    background-color: #a0acbf;
+    border: 2px solid black;
+    font-family: Cursive;
+    font-size: 35px;
+    margin-top: 2%;
+    border-radius: 10px;
+    text-align: center;
+}
+#header_2 {
+    width: 98%;
+    margin-left: 1%;
+    background-color: #a0acbf;
+    border: 2px solid black;
+    font-family: Cursive;
+    font-size: 2.5vw;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.underside_links {
+    height: 60px;
+    padding-top: 10px;
+    border: 2% solid white;
+    border-radius: 7px;
+    width: 98%;
+    margin-left: 1%;
+    background-color: #2b3831;
+    margin-top: 0.5%;
+    border: 2px solid white;
+    text-align: center;
+
+}
+
+#tag {
+    position:absolute;
+    font-size: 2.5em;
+    font-family: cursive;
+    margin-left: 8%;
+    margin-top: 8%
+
+}
+
+#white_box {
+    height: 600px;
+    width: 90%;
+    padding: 4%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    background-color: #787c99;
+    border-radius: 10px
+
+}
+#white_box_2 {
+    height: 75%;
+    width: 96%;
+    padding: 1%;
+    padding-bottom: 2%;
+    margin-left: 1%;
+    margin-top: 0.5%;
+    background-color: #787c99;
+    border-radius: 10px
+
+}
+
+#blurb_text {
+    width: 30%;
+    float: right;
+    background-color: #545b96;
+    height: 84%;
+    margin-top: 2%;
+    text-align: center;
+    font-size: 1.67vw;
+    line-height: 1.5;
+    padding: 1%;
+    border-radius: 2%;
+    color: #b4b7c6
+
+}
+.page_advert {
+    text-align: center;
+    padding-top: 2%;
+    width: 30%;
+    height: 38%;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 2%;
+    margin-right: 2%;
+    float: left;
+}
+
+.blog_box {
+    background-color: white;
+    width: 99%;
+    float: none;
+    height: 24%;
+    border-radius: 5px;
+    margin-top: 1%
+}
+.blog_title {
+  width: 80%;
+  padding-top: 0.05%;
+  font-family: sans-serif;
+  text-align: center;
+}
+.blog_blurb {
+  text-align: center;
+  width: 80%;
+  font-size: 1vw;
+  margin-right: 2%
+}
+
+#blog_pic_pizza_scissors {
+  height: 80%;
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  background-position: center;
+  background-size: contain;
+  background-image: url(images/pizza_scissors.jpg);
+  background-repeat: no-repeat;
+
+}
+#blog_pic_popcorn {
+  height: 80%;
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  background-position: center;
+  background-size: contain;
+  background-image: url(images/popcorn-maker.jpg);
+  background-repeat: no-repeat;
+}
+
+#blog_pic_avoshark {
+  height: 80%;
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  background-position: center;
+  background-size: contain;
+  background-image: url(images/avo-shark.jpg);
+  background-repeat: no-repeat;
+
+}
+
+#blog_pic_banana {
+  height: 80%;
+  width: 20%;
+  float: left;
+  margin-right: 2%;
+  background-position: center;
+  background-size: contain;
+  background-image: url(images/banana.jpg);
+  background-repeat: no-repeat;
+
+}
+
+#under_construction {
+  padding-top: 1%;
+  height: 30%;
+  margin-top: 10%;
+  padding-bottom: 1%;
+  width: 100%;
+  border-radius: 1%;
+  background-color: #2c3d59;
+
+}
+
+.side_text_link {
+  text-decoration: none;
+}
+.side_text_link:hover {
+  color: #6d9657;
+  text-decoration: none;
+}
+.side_text_link:visited {
+  color: #000000;
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+
+#tag {
+  font-size: 2vw
+}
+
+.left_sidebar {
+  display: none;
+}
+#thumbs {
+  width: 95%;
+  margin-left: 0%
+}
+#lower_back {
+  width: 100%;
+  margin-left: 0%
+}
+
+
+}
